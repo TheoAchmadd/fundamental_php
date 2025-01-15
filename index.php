@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    echo "hallo"
+    echo "hallo theo"
     ?>
 </body>
 </html>
