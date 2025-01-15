@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    echo "hallo theo"
+    echo "Ini halaman pertama saya Hello World"
     ?>
 </body>
 </html>
