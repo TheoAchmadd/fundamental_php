@@ -12,11 +12,9 @@
         define('bonus', 500000);
         define('pajak', 0.12);
         $proyek = 2;
-        $total_gaji;
-        $gaji_bersih;
 
         //menghitung bonus
-        $proyek *= bonus;
+        $proyek *= bonus; // = $proyek = $proyek * $bonus
 
         //mengitung gaji+bonus
         $total_gaji = gaji + $proyek;
