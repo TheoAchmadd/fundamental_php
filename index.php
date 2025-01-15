@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <?php
+
+    //Variabel
     $theo = 10*10;
     $Theo = '-halalala-';
 
+    //isi
     echo "Ini huruf $Theo <br/>";
     echo "ini angka -$theo-";
-    ?>
     
+    ?>
 </body>
 </html>
