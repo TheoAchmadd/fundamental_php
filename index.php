@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php
-    echo "Ini halaman pertama saya Hello World"
+    $theo = 20+1;
+    $Theo = 'halalala';
+    echo "Ini halaman pertama saya Hello World $Theo";
     ?>
 </body>
 </html>
