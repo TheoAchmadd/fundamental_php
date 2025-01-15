@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Theo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <?php   
@@ -27,10 +28,11 @@
         
 
 
-
-        echo "ini bonus anda $proyek <br/>";
-        echo "ini gaji anda setelah ditambah bonus $total_gaji <br/>";
-        echo "pajak anda $total_pajak <br/>";
+        echo "Anda telah menyelesaikan 2 proyek <br/>";
+        echo "Ini Bonus Anda $proyek <br/><br/>";
+        echo "Gaji anda 5000000 <br/>";
+        echo "ini gaji anda setelah ditambah bonus $total_gaji <br/><br/>";
+        echo "pajak anda $total_pajak <br/><br/>";
         echo "ini gaji bersih anda $gaji_bersih"
 
     ?> 
