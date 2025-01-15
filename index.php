@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TheoAchmadAlfareza</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <?php
-    $theo = 20+1;
-    $Theo = 'halalala';
-    echo "Ini halaman pertama saya Hello World $Theo";
+    $theo = 10*10;
+    $Theo = '-halalala-';
+
+    echo "Ini huruf $Theo <br/>";
+    echo "ini angka -$theo-";
     ?>
+    
 </body>
 </html>
