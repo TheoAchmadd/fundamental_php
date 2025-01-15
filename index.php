@@ -14,8 +14,16 @@
     $Theo = '-halalala-';
 
     //isi
-    echo "Ini huruf $Theo <br/>";
-    echo "ini angka -$theo-";
+    echo "Ini huruf $Theo <br/><br/>";
+    echo "ini angka -$theo- <br/><br/>";
+
+    //konstanta
+    $theo = 10;
+    $enjek = 10;
+
+    $theo += $enjek; // $theo = $theo + $enjek
+
+    echo $theo;
     
     ?>
 </body>
