@@ -97,7 +97,7 @@
             </p>
             <br>
             <p>
-                <input type="submit" value="INPUT DATA">
+                <input type="submit" value="MASUKAN DATA">
             </p>
         </fieldset>
     </form>
