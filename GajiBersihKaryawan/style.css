@@ -1,0 +1,15 @@
+body {
+    margin: 20px;
+}
+
+.judul {
+    text-align: center;
+}
+
+.judul h1{
+    font-size: 2vw;
+}
+
+.judul h3{
+    font-size: 1.5vw;
+}
