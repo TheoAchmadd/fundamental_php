@@ -12,25 +12,25 @@
         <h1>Aplikasi penghitungan Gaji</h1>
         <h3>CV. TeknoNusa</h3>
     </div>
-    <form action="proses.php" method="POST">
+    <form action="proses.php" id="myForm" method="POST">
 
         <fieldset>
             <p>
                 <label for="">NAMA :</label>
-                <input type="text" name="nama" placeholder="Nama Lengkap">
+                <input type="text" name="namaa" id="nama" placeholder="Nama Lengkap" required>
             </p>
             <p>
                 <label for="">DIVISI :</label>
-                <input type="text" name="divisi" placeholder="Divisi">
+                <input type="text" name="divisi" placeholder="Divisi" required>
             </p>
             <p>
                 <label for="">Gaji Bulanan :</label>
-                <input type="number" name="gaji_bulanan" require placeholder="Gaji Bulanan">
+                <input type="number" name="gaji_bulanan" require placeholder="Gaji Bulanan" required>
             </p>
             <p>
                 <label for="">Apakah Anda Memiliki NPWP :</label>
-                <input type="radio" value="iya" name="npwp">Iya
-                <input type="radio" value="tidak" name="npwp">Tidak
+                <input type="radio" value="iya" name="npwp" required>Iya
+                <input type="radio" value="tidak" name="npwp" required>Tidak
             </p>
             <p>
                 <input type="submit" name="input_data" value="INPUT DATA">
@@ -38,6 +38,18 @@
         </fieldset>
 
     </form>
+
+    <script>
+    document.getElementById("myForm").addEventListener("submit", function (event) {
+        let username = document.getElementById("namaa");
+
+        if (!username.value) {
+            username.setCustomValidity("Please enter your name!"); // Custom message
+        } else {
+            username.setCustomValidity(""); // Reset message when valid
+        }
+    });
+</script>
 
 </body>
 </html>
