@@ -29,8 +29,8 @@
             </p>
             <p>
                 <label for="">Apakah Anda Memiliki NPWP :</label>
-                <input type="radio" value="L" name="npwp">Iya
-                <input type="radio" value="P" name="npwp">Tidak
+                <input type="radio" value="iya" name="npwp">Iya
+                <input type="radio" value="tidak" name="npwp">Tidak
             </p>
             <p>
                 <input type="submit" name="input_data" value="INPUT DATA">
