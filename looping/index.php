@@ -23,7 +23,7 @@
         <input type="number" name="kolom" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
         </div>
         <div class="col-12">
-    <button type="submit" class="btn btn-primary" name="submit">Sign in</button>
+    <button type="submit" class="btn btn-primary" name="submit">Jalankan</button>
   </div>
     </form>
 
